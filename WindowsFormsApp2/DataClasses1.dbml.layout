@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.125, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="d9206696-3812-4222-9b1c-a7510d6022c5" absoluteBounds="6.25, 0.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/gestiuni" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1776f367-547f-4e02-8fc3-4a1e9fdf12f6" absoluteBounds="6.265, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="92c4ec73-5731-4c82-8f92-160f603388e2" absoluteBounds="6.375, 3.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClasses1DataContext/intrari" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84381888-0a62-4b41-b3da-66fc13d5e9a9" absoluteBounds="6.3900000000000006, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.3125 : 2.2612939453125); (7.3125 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/gestiuni/gestiuni_intrari" />
+      <nodes>
+        <classShapeMoniker Id="d9206696-3812-4222-9b1c-a7510d6022c5" />
+        <classShapeMoniker Id="92c4ec73-5731-4c82-8f92-160f603388e2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="520d0a2e-16e5-4a21-aca9-e4f56ba68d0f" absoluteBounds="3.25, 3.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClasses1DataContext/intrari_detaliu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54dbc75f-1934-4549-81b2-071d8c673c15" absoluteBounds="3.2649999999999997, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 4.38544840494792); (5.25 : 4.38544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/intrari/intrari_intrari_detaliu" />
+      <nodes>
+        <classShapeMoniker Id="92c4ec73-5731-4c82-8f92-160f603388e2" />
+        <classShapeMoniker Id="520d0a2e-16e5-4a21-aca9-e4f56ba68d0f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ce51b2f4-6dac-4049-a660-37cd895b3d53" absoluteBounds="8.875, 3.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClasses1DataContext/parteneri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0b7091de-7b9d-4280-b530-f252a36d525a" absoluteBounds="8.89, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.875 : 4.32294840494792); (8.375 : 4.32294840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/parteneri/parteneri_intrari" />
+      <nodes>
+        <classShapeMoniker Id="ce51b2f4-6dac-4049-a660-37cd895b3d53" />
+        <classShapeMoniker Id="92c4ec73-5731-4c82-8f92-160f603388e2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2749ac11-a4c2-4a8d-8ef2-920b14edabde" absoluteBounds="0.5, 3.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/produse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e6cbb87-f8a2-49d4-90d5-794d3f898aa6" absoluteBounds="0.51500000000000012, 4.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.41429768880208); (3.25 : 4.41429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/produse/produse_intrari_detaliu" />
+      <nodes>
+        <classShapeMoniker Id="2749ac11-a4c2-4a8d-8ef2-920b14edabde" />
+        <classShapeMoniker Id="520d0a2e-16e5-4a21-aca9-e4f56ba68d0f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="873b5135-c732-49e4-8015-3eab33c340e2" absoluteBounds="3, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClasses1DataContext/iesiri_detaliu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92c620a7-86e8-4584-98e8-b7e66bceabe6" absoluteBounds="3.0149999999999997, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.625); (3 : 3.27089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/produse/produse_iesiri_detaliu" />
+      <nodes>
+        <classShapeMoniker Id="2749ac11-a4c2-4a8d-8ef2-920b14edabde" />
+        <classShapeMoniker Id="873b5135-c732-49e4-8015-3eab33c340e2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6a837183-a5e4-4619-8f56-9dcdb8151746" absoluteBounds="0.5, 0.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/iesiri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5068348b-2922-4072-8b07-2306985f344f" absoluteBounds="0.51499999999999968, 1.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.85179768880208); (3 : 1.85179768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/iesiri/iesiri_iesiri_detaliu" />
+      <nodes>
+        <classShapeMoniker Id="6a837183-a5e4-4619-8f56-9dcdb8151746" />
+        <classShapeMoniker Id="873b5135-c732-49e4-8015-3eab33c340e2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.25 : 1.15625); (2.5 : 1.15625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/gestiuni/gestiuni_iesiri" />
+      <nodes>
+        <classShapeMoniker Id="d9206696-3812-4222-9b1c-a7510d6022c5" />
+        <classShapeMoniker Id="6a837183-a5e4-4619-8f56-9dcdb8151746" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
